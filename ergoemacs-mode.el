@@ -480,7 +480,7 @@ Shift+<special key> is used (arrows keys, home, end, pgdn, pgup, etc.)."
 
 
 ;; Log edit mode
-(eval-when-compile (log-edit-mode))
+;; (eval-when-compile (log-edit-mode))
 (defun ergoemacs-log-edit-hook ()
   "Hook for `log-edit-mode-hook'."
   (define-key log-edit-mode-map (kbd "<f11>") 'log-edit-previous-comment)
